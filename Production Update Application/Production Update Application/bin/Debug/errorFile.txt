@@ -1,0 +1,24 @@
+Entry: 333 2/1/20 1 1 1
+Error: ID does not exist in master file.
+
+
+Entry: 200 4/1/20 5 5 5
+Error: Transaction ID is smaller than previous transaction ID.
+
+
+Entry: 300 11/1/20 5  6
+Error: Field/s or content missing.
+
+
+Entry: 400 12/1/20 4 5
+Error: Transaction record is invalid (Incorrect number of fields, or field/s with wrong format
+
+
+Entry: four 13,1,20 5 5 5
+Error: Transaction ID is not an Integer.
+
+
+Entry: 400 13/1/20 five 5 5
+Error: Transaction record is invalid (Incorrect number of fields, or field/s with wrong format
+
+
